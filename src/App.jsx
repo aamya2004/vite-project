@@ -24,9 +24,9 @@ const App = () => {
       <h1 className='text-7xl text-center text-white font-bold'>Do You love me?</h1>
       {
         saidYes ? 
-        <img src='https://i.postimg.cc/HsV0xyFj/ano-blushing.gif' className='h-80 w-30'></img>
+        <img src='https://i.postimg.cc/HLCbBPn7/iloveyou-goblin.gif' className='h-80 w-30'></img>
         :
-      <img src='https://i.postimg.cc/HLCbBPn7/iloveyou-goblin.gif' className='h-80 w-30'></img>
+      <img src='https://i.postimg.cc/HsV0xyFj/ano-blushing.gif' className='h-80 w-30'></img>
       }
       Try Clicking No!!
       <div className='flex justify-around'>
