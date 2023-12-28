@@ -23,7 +23,9 @@ const App = () => {
     <div className='h-screen w-screen bg-purple-300 grid place-items-center text-xl'>
       <h1 className='text-7xl text-center text-white font-bold'>Do You love me?</h1>
       {
-        saidYes ? <img src='https://tenor.com/view/iloveyou-goblin-gif-21907689' className='h-80 w-30'></img>:
+        saidYes ? 
+        <img src='https://tenor.com/view/iloveyou-goblin-gif-21907689' className='h-80 w-30'></img>
+        :
       <img src='https://tenor.com/view/ano-blushing-hinata-hyuuga-naruto-shy-gif-16936496' className='h-80 w-30'></img>
       }
       Try Clicking No!!
